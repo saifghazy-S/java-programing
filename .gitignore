@@ -1,0 +1,4 @@
+*.class
+students_data.txt
+.DS_Store
+*.log
