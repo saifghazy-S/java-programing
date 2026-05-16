@@ -32,7 +32,10 @@ public class Main {
         
         System.out.println("✅ تم تحميل البيانات التجريبية بنجاح!\n");
         
-        // تشغيل البرنامج
-        system.run();
+        // تشغيل الواجهة الرسومية
+        javax.swing.SwingUtilities.invokeLater(() -> {
+            StudentFrame frame = new StudentFrame(system);
+            frame.setVisible(true);
+        });
     }
 }

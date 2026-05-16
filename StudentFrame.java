@@ -14,7 +14,8 @@ public class StudentFrame extends JFrame {
     private JTable studentTable;
     
     // --- أسماء مطوري البرنامج (يمكنك تعديلها من هنا) ---
-    private final String[] DEVELOPERS = {"سيف محمد ممدوح غازي"};
+    private final String[] DEVELOPERS = {"سيف محمد ممدوح غازي","احمد محمد ثابت","عبد التواب عبد الحميد ","محمد ياسر عبد الستار","" + //
+                "عبد الرحمن ذويل","احمد جوده حسنين","عبدالله محمد السيد  "};
 
     // حقول الإدخال
     private RoundedTextField idField, nameField, majorField, targetIdField, subNameField, gradeField, searchField;
